@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "id": "demo001",
+      "code": "600519",
+      "name": "贵州茅台",
+      "type": "price_below",
+      "value": 1500.0,
+      "enabled": true,
+      "note": "示例：跌破1500提醒"
+    },
+    {
+      "id": "demo002",
+      "code": "000001",
+      "name": "平安银行",
+      "type": "pct_above",
+      "value": 3.0,
+      "enabled": true,
+      "note": "示例：涨幅超3%提醒"
+    }
+  ]
+}
